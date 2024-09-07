@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form">
+        <h2>Enter Your Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email">
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" placeholder="Your Skills">
+        <button onclick="updateResume()">Update Resume</button>
+    </div>
+    <div class="resume">
+      <h1 id="display-name">Your Name</h1>
+      <p id="display-email">Your Email</p>
+      <p id="display-contact">Your Contact</p>
+      <h1 id="display-adress">Your Adress</h1>
+      <p id="display-education">Your Education</p>
+      <p id="display-skills">Your Skills</p>
+    </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
